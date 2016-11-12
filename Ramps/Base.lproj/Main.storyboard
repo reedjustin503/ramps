@@ -41,8 +41,8 @@
                                     <action selector="showDownRamp" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNb-3w-Cau"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smile" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQh-GF-b3U">
-                                <rect key="frame" x="12" y="145" width="351" height="250"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="write down three things you are grateful for" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQh-GF-b3U">
+                                <rect key="frame" x="12" y="240" width="351" height="187"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
                                 <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -71,53 +71,23 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7nc-GW-QpH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="240-sf-Cxz"/>
                             <constraint firstItem="7nc-GW-QpH" firstAttribute="width" secondItem="9Zh-9f-O18" secondAttribute="width" id="25h-tt-TCi"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Zh-9f-O18" secondAttribute="bottom" constant="90" id="2ho-x7-NY3"/>
-                            <constraint firstItem="7nc-GW-QpH" firstAttribute="leading" secondItem="9Zh-9f-O18" secondAttribute="trailing" constant="15" id="A18-X7-Nfn"/>
-                            <constraint firstItem="fQh-GF-b3U" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="125" id="AYl-zZ-lhl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fQh-GF-b3U" secondAttribute="trailing" constant="-4" id="CD8-Wi-eLg"/>
-                            <constraint firstItem="fQh-GF-b3U" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="DD5-e6-1Be"/>
                             <constraint firstItem="fQh-GF-b3U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FdU-h3-6FB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7nc-GW-QpH" secondAttribute="trailing" id="K7E-Ma-cWS"/>
-                            <constraint firstItem="fQh-GF-b3U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q57-vs-Dcg"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="lessThanOrEqual" secondItem="7nc-GW-QpH" secondAttribute="bottom" constant="90" id="RQg-Yt-bSA"/>
+                            <constraint firstItem="fQh-GF-b3U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" priority="750" id="GJ2-eG-ojg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Zh-9f-O18" secondAttribute="bottom" constant="90" id="SZY-Im-VSe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7nc-GW-QpH" secondAttribute="bottom" constant="90" id="Tla-hy-pJg"/>
                             <constraint firstItem="fQh-GF-b3U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="XOE-df-WJK"/>
-                            <constraint firstItem="9Zh-9f-O18" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cc4-og-lvp"/>
-                            <constraint firstItem="7nc-GW-QpH" firstAttribute="top" secondItem="fQh-GF-b3U" secondAttribute="bottom" constant="92" id="ceX-xB-8ib"/>
-                            <constraint firstItem="fQh-GF-b3U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="eDQ-vn-kN2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9Zh-9f-O18" secondAttribute="trailing" constant="-20" id="eaB-eQ-bGB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="lessThanOrEqual" secondItem="9Zh-9f-O18" secondAttribute="bottom" constant="90" id="jty-nc-CbM"/>
+                            <constraint firstItem="7nc-GW-QpH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fQh-GF-b3U" secondAttribute="bottom" constant="20" id="ceX-xB-8ib"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9Zh-9f-O18" secondAttribute="trailing" constant="-20" id="oek-TH-ygY"/>
-                            <constraint firstItem="7nc-GW-QpH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ry7-vx-TwE"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fQh-GF-b3U" secondAttribute="trailing" constant="-8" id="s83-GJ-EjW"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7nc-GW-QpH" secondAttribute="bottom" constant="90" id="ssh-7W-5OK"/>
-                            <constraint firstItem="9Zh-9f-O18" firstAttribute="top" secondItem="fQh-GF-b3U" secondAttribute="bottom" constant="92" id="tZt-m0-GNZ"/>
+                            <constraint firstItem="9Zh-9f-O18" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fQh-GF-b3U" secondAttribute="bottom" constant="20" id="tZt-m0-GNZ"/>
                             <constraint firstItem="9Zh-9f-O18" firstAttribute="leading" secondItem="7nc-GW-QpH" secondAttribute="trailing" constant="21" id="yVJ-rW-Mf0"/>
-                            <constraint firstItem="9Zh-9f-O18" firstAttribute="leading" secondItem="7nc-GW-QpH" secondAttribute="trailing" constant="15" id="z8j-Tv-Mzb"/>
-                            <constraint firstItem="9Zh-9f-O18" firstAttribute="leading" secondItem="7nc-GW-QpH" secondAttribute="trailing" constant="15" id="zon-99-H6l"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="DD5-e6-1Be"/>
-                                <exclude reference="Q57-vs-Dcg"/>
-                                <exclude reference="eDQ-vn-kN2"/>
-                                <exclude reference="s83-GJ-EjW"/>
-                                <exclude reference="A18-X7-Nfn"/>
-                                <exclude reference="K7E-Ma-cWS"/>
-                                <exclude reference="ry7-vx-TwE"/>
-                                <exclude reference="cc4-og-lvp"/>
-                                <exclude reference="eaB-eQ-bGB"/>
-                                <exclude reference="z8j-Tv-Mzb"/>
-                                <exclude reference="zon-99-H6l"/>
-                                <exclude reference="RQg-Yt-bSA"/>
-                                <exclude reference="jty-nc-CbM"/>
-                            </mask>
-                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
