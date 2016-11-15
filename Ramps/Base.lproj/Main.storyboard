@@ -41,12 +41,6 @@
                                     <action selector="showDownRamp" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNb-3w-Cau"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="write down three things you are grateful for" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQh-GF-b3U">
-                                <rect key="frame" x="12" y="240" width="351" height="187"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
-                                <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nc-GW-QpH">
                                 <rect key="frame" x="-4" y="487" width="181" height="90"/>
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.92549019607843142" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -70,6 +64,12 @@
                                     <action selector="showUpRamp" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9x-wl-B91"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="write down three things you are grateful for" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQh-GF-b3U">
+                                <rect key="frame" x="12" y="240" width="351" height="187"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
+                                <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
